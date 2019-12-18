@@ -1,4 +1,4 @@
-# How to use the Web Document Viewer in JavaScript with Vue JavaScript Framework
+# How to use the Web Document Viewer in JavaScript with the Vue JavaScript Framework
 
 This example consists of two parts: 
 
