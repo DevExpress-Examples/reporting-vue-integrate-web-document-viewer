@@ -10,7 +10,7 @@ export default {
 name: "WebDocumentViewer",
 mounted() {
     var viewerOptions = {
-        reportUrl: ko.observable("Products"), // The URL of a report that is opened in the Report Designer when the application starts.
+        reportUrl: ko.observable("Products"), // The URL of a report.
         requestOptions: {
         host: "http://localhost:54114/",
 	// Use this line if you use an ASP.NET MVC backend
