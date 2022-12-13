@@ -1,13 +1,8 @@
-<!-- default badges list -->
-![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/228656974/21.2.1%2B)
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T848267)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
 # How to use the Web Document Viewer in JavaScript with the Vue JavaScript Framework
 
 This example consists of two parts: 
 
-- A server (back-end) ASP.NET MVC project that enables [cross-domain requests (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (Access-Control-Allow-Origin) and implements a custom web report storage.
+- A server (back-end) ASP.NET Core project that enables [cross-domain requests (CORS)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) (Access-Control-Allow-Origin) and implements a custom web report storage.
 
 - An <a href="https://vuejs.org/">Vue JavaScript Framework</a> front-end client application.
 
@@ -27,5 +22,17 @@ Perform the following steps to run this example:
 
 ![](images/screenshot.png)
 
-For a step-by-step tutorial, refer to the
-[Document Viewer Integration in Vue](https://docs.devexpress.com/XtraReports/401539) topic.
+
+## Files to Review
+
+- [WebDocumentViewer.vue](JS\vue-report-viewer\src\components\WebDocumentViewer.vue)
+- [main.js](JS\vue-report-viewer\src\main.js)
+- [HomeController.cs](CS\ServerSideApp\Controllers\HomeController.cs)
+- [CustomReportStorageWebExtension.cs](CS\ServerSideApp\Services\CustomReportStorageWebExtension.cs)
+- [Startup.cs](CS\ServerSideApp\Startup.cs)
+## Documentation
+
+- [Document Viewer Integration in Vue](https://docs.devexpress.com/XtraReports/401539)
+## More Examples
+
+- [How to use the End-User Web Report Designer in JavaScript with Vue Framework](https://github.com/DevExpress-Examples/reporting-eud-designer-in-javascript-with-vue)

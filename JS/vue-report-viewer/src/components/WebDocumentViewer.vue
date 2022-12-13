@@ -10,13 +10,10 @@ export default {
 name: "WebDocumentViewer",
 mounted() {
     var viewerOptions = {
-        reportUrl: ko.observable("Products"), // The URL of a report.
+        reportUrl: ko.observable("TestReport"),
         requestOptions: {
-        host: "http://localhost:54114/",
-	// Use this line if you use an ASP.NET MVC backend
-	invokeAction: "/WebDocumentViewer/Invoke"
-	// Uncomment this line if you use an ASP.NET Core backend
-	//invokeAction: "DXXRDV"
+        host: "https://localhost:54114/",
+        invokeAction: "DXXRDV"
         }
     };
     ko.applyBindings(viewerOptions, this.$refs.viewer);
