@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
     <DefaultItemExcludes>Reports\**</DefaultItemExcludes>
-    <PackageProjectUrl>http://localhost:54114/</PackageProjectUrl>
+    <PackageProjectUrl>https://localhost:54114/</PackageProjectUrl>
   </PropertyGroup>
   <ItemGroup>
     <Compile Remove="Reports\**" />
