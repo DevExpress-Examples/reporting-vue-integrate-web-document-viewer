@@ -13,8 +13,8 @@ This example consists of two parts: 
 
 Perform the following steps to run this example:
 
-1. Open the back-end project solution (**CS\ServerSide.sln** or **VB\ServerSide.sln**) in Visual Studio and run the project.
-2. Navigate to the **JS\vue-report-viewer** folder that is the client part's root folder.
+1. Open the back-end project solution (**CS/ServerSide.sln** or **VB/ServerSide.sln**) in Visual Studio and run the project.
+2. Navigate to the **JS/vue-report-viewer** folder that is the client part's root folder.
 3. Open the console and run the following command:
 
     ```npm install```
@@ -23,18 +23,18 @@ Perform the following steps to run this example:
 
     ```npm run serve```
 
-5. Point your browser to [http://localhost:8080/](http://localhost:8080/) to see the result.
+5. Point your browser to `http://localhost:8080/` to see the result.
 
 ![](images/screenshot.png)
 
 
 ## Files to Review
 
-- [WebDocumentViewer.vue](JS\vue-report-viewer\src\components\WebDocumentViewer.vue)
-- [main.js](JS\vue-report-viewer\src\main.js)
-- [HomeController.cs](CS\ServerSideApp\Controllers\HomeController.cs)
-- [CustomReportStorageWebExtension.cs](CS\ServerSideApp\Services\CustomReportStorageWebExtension.cs)
-- [Startup.cs](CS\ServerSideApp\Startup.cs)
+- [WebDocumentViewer.vue](JS/vue-report-viewer/src/components/WebDocumentViewer.vue)
+- [main.js](JS/vue-report-viewer/src/main.js)
+- [HomeController.cs](CS/ServerSideApp/Controllers/HomeController.cs)
+- [CustomReportStorageWebExtension.cs](CS/ServerSideApp/Services/CustomReportStorageWebExtension.cs)
+- [Startup.cs](CS/ServerSideApp/Startup.cs)
 ## Documentation
 
 - [Document Viewer Integration in Vue](https://docs.devexpress.com/XtraReports/401539)
