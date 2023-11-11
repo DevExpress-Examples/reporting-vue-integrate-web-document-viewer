@@ -1,8 +1,4 @@
-<!-- default badges list -->
-[![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/T848267)
-[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
-<!-- default badges end -->
-# How to use the Web Document Viewer in JavaScript with the Vue JavaScript Framework
+# Reporting for Web (Vue) - Document Viewer
 
 This example consists of two parts: 
 
@@ -17,15 +13,13 @@ Perform the following steps to run this example:
 3. Open the console and run the following command:
 
     ```npm install```
-
 4. Run the command to compile and start the client part:
 
     ```npm run serve```
 
 5. Point your browser to `http://localhost:8080/` to see the result.
 
-![](images/screenshot.png)
-
+![](Images/screenshot.png)
 
 ## Files to Review
 
@@ -34,9 +28,7 @@ Perform the following steps to run this example:
 - [HomeController.cs](CS/ServerSideApp/Controllers/HomeController.cs)
 - [CustomReportStorageWebExtension.cs](CS/ServerSideApp/Services/CustomReportStorageWebExtension.cs)
 - [Startup.cs](CS/ServerSideApp/Startup.cs)
+
 ## Documentation
 
 - [Document Viewer Integration in Vue](https://docs.devexpress.com/XtraReports/401539)
-## More Examples
-
-- [How to use the End-User Web Report Designer in JavaScript with Vue Framework](https://github.com/DevExpress-Examples/reporting-eud-designer-in-javascript-with-vue)
