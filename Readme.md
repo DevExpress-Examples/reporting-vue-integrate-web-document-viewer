@@ -33,9 +33,9 @@ Perform the following steps to run this example:
 
 - [WebDocumentViewer.vue](vue-report-viewer/src/components/WebDocumentViewer.vue)
 - [main.js](vue-report-viewer/src/main.js)
-- [HomeController.cs](ServerSideApp/Controllers/HomeController.cs)
-- [CustomReportStorageWebExtension.cs](ServerSideApp/Services/CustomReportStorageWebExtension.cs)
-- [Program.cs](ServerSideApp/Program.cs)
+- [HomeController.cs](ServerSideApp/ServerSideApp/Controllers/HomeController.cs)
+- [CustomReportStorageWebExtension.cs](ServerSideApp/ServerSideApp/Services/CustomReportStorageWebExtension.cs)
+- [Program.cs](ServerSideApp/ServerSideApp/Program.cs)
 
 ## Documentation
 
